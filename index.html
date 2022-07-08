@@ -9,72 +9,91 @@
     <title>Portfolio website</title>
 </head>
 <body>
-    <div class="background">
+    <div id="inicio" class="background">
         <nav>
             <h2>Portfo<span>lio</span></h2>
-            <ul class="cabeçalho-link">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul><!--cabeçalho-link-->
-            <a href="#" class="btn">Subscribe</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul><!--nav-list-->
         </nav>
+
         <div class="Main">
-            <h4>Hello, my name is</h4>
+            <h4>Olá, meu nome é </h4>
             <h1>Emerson<span> Nascimento</span></h1>
-            <h3>I am a developer Full Stack</h3>
+            <h3>Eu sou um desenvolvedor full stack</h3>
             <div class="Container-btn">
                 <form>
-                    <input type="email" nome="email" placeholder="Send your email">
-                    <input type="submit" nome="submit" value="Start">
+                    <input type="email" nome="email" placeholder="Enviar um email">
+                    <input type="submit" nome="submit" value="Começar">
                 </form>
             </div><!--Container-btn-->    
         </div><!--Main-->
     </div><!--background-->
 
-    <section class="background-color-sobre">
+    <section id="sobre" class="background-color-sobre">
         <div class="Main-sobre">
             <img src="main-img.png">
             <div class="text-sobre">
-                <h2>About-me</h2>
-                <h5>Developer <span>Full Stack</span></h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur a.</p>
-                <button class="button">Talke-me</button>
+                <h2>Sobre-mim</h2>
+                <h5>Desenvolvedor <span>Full Stack</span></h5>
+                <p>Olá meu nome é Emerson, tenho 27 anos,sou um desenvolvedor full stack e ajudo você a criar aquele projeto que você não consegue tirar do papel, faço toda parte desenvolvimento em html,javascrip,css.
+                    estou aqui para te ajudar a destravar seu programa ou site, se tiver dúvidas pode me enviar um mensagem no botão abaixo 
+                </p>
+                <button class="button">Conversar</button>
             </div><!--text-sobre-->
         </div><!--Main-sobre-->
 
     </section><!--background-color-sobre-->
 
-    <div class="container-projetos">
+    <div id="projetos" class="container-projetos">
         <div class="title">
-            <h2>Projects</h2>
+            <h2>Projetos</h2>
         </div><!--title-->
         
         <div class="caixa">
 
             <div class="card">
-                <h5>Project 1</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur a.</p>
+                <i class="fa-solid fa-user-secret"></i>
+                <h5>Projeto 0 - Detetive </h5>
+                <p>O projeto detetive foi o inicio de minha jornada com javascript, foi criado um programa que faria 5 perguntas, e com base nas respostas o programa retornava se a pessoa era inocente, suspeito ou culpado.</p>
                 <button class="btn">View Project</button>
             </div><!--card-->
 
             <div class="card">
-                <h5>Project 2</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur a.</p>
+                <i class="fa-solid fa-person"></i>
+                <h5>Projeto 1 - Jornada do Herói</h5>
+                <p>O projeto detetive foi a criação de um programa, que faria perguntas ao usuário e no final das perguntas o programa mostraria o resultado da jornada do herói diferente para cada resultado.</p>
                 <button class="btn">View Project</button>
             </div><!--card-->
 
             <div class="card">
-                <h5>Project 3</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur a.</p>
+                <i class="fa-solid fa-hand-back-fist"></i>
+                <h5>Projeto 2 - Jokenpo</h5>
+                <p>Criação de um programa onde o usuário jogaria o jogo Jokenpo com a maquina, com opções de escolha de rodadas e no final de cada rodada o programa mostraria o resultado da rodada e ao final quem foi o grande vencedor.</p>
                 <button class="btn">View Project</button>
             </div><!--card-->
 
             <div class="card">
-                <h5>Project 4</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur a.</p>
+                <i class="fa-brands fa-buromobelexperte"></i>
+                <h5>Projeto 3 - Jogo da Velha</h5>
+                <p>Criação de um programa onde o usuário jogaria o jogo da velha com outro usuário, e cada um teria que fazer a escolha do local onde marcaria com "X" ou "O" a posição escolhida, no final mostraria o resultado.</p>
+                <button class="btn">View Project</button>
+            </div><!--card-->
+
+            <div class="card">
+                <i class="fa-solid fa-gamepad"></i>
+                <h5>Projeto 4 - Ficção Interativa</h5>
+                <p>Criação de um programa, que o usuário escolheria opções dentro do jogo e conforme as opções escolhidas o jogador teria caminhos diferente dentro do jogo, o programa foi com base em um scape room.</p>
                 <button class="btn">View Project</button>
             </div><!--card-->
 
@@ -82,8 +101,8 @@
     </div><!--container-projetos-->
 
     <div class="container-skills">
-        <div class="texto">
-            <h2>My Skills</h2>
+        <div id="skills" class="texto">
+            <h2>Minhas Skills</h2>
         </div><!--title-->
 
         <div class="caixa-skills">
@@ -105,18 +124,18 @@
 
     </div><!--container-skills-->
 
-    <div class="me-contate">
-        <p>Contact me for a quote!</p>
-        <button class="btn">Send Message</button>
+    <div id="contato" class="me-contate">
+        <p>Envie uma mensagem, para fazer uma cotação</p>
+        <button class="btn">Enviar mensagem</button>
     </div><!--me-contate-->
 
     <footer>
         <h6>Emerson Nascimento</h6>
-        <p>For more HTML and CSSa, please click the link below to follow my social media</p>
+        <p>Para mais HTML e CSS, clique nos icones abaixo para seguir minhas redes sociais</p>
         <div class="Redes-sociais">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/maza05/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/nascimentoemerson/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/nascimentoemerson/"><i class="fa-brands fa-github"></i></a>
         </div><!--Redes-sociais-->
 
         <div class="End">
@@ -124,6 +143,6 @@
         </div>
 
     </footer>
-
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
