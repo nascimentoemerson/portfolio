@@ -8,6 +8,13 @@
     
 }
 
+html,body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #191919
+}
 
 .background{
     background-image: url(background.png);
@@ -128,14 +135,14 @@ h3{
     top: 6px;
 }
 
-.background-color-sobre{
+.sobre{
     background-color: #191919;
     width: 100%;
-    padding: 100px;
+    padding: 20px;
 }
 
-.background-color-sobre img{
-    width: 430px;
+.sobre img{
+    width: 390px;
     height: auto;
 }
 
@@ -196,14 +203,14 @@ h3{
 .container-projetos{
     background-color: black;
     width: 100%;
-    padding: 100px 0px;
+    padding: 40px 0px;
 }
 
 .title h2{
     color: #fff;
     font-size: 75px;
     width: 1130;
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
 
 }
@@ -392,16 +399,42 @@ footer p{
 }
 
 @media (max-width: 999px) {
-    body {
-        overflow-x: hidden;
+    img {
+        display: none;
     }
+
+    .text-sobre h2{
+        font-size: 3.5rem;
+
+    }
+
+    .text-sobre {
+        width: 80vw;
+    }
+
+    .container-button {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    .title h2{
+        font-size: 3.5rem;
+    }
+
     .nav-List {
+        display: flex;
+        z-index: 100;
         position: absolute;
-        top: 8vh;
+        top: 30vh;
         right: 0;
-        width: 50vw;
-        height: 92vh;
-        background: #191919;
+        width: 100%;
+        height: 95vh;
+        background: black;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -411,11 +444,15 @@ footer p{
 
     .nav-List li {
         margin-left: 0;
-        opacity: 0;
     }
+
 
     .mobile-Menu {
         display: block;
+    }
+
+    body {
+        overflow: hidden;
     }
 
 }

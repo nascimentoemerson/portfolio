@@ -9,7 +9,7 @@
     <title>Portfolio website</title>
 </head>
 <body>
-    <div id="inicio" class="background">
+    <header>
         <nav>
             <h2>Portfo<span>lio</span></h2>
             <div class="mobile-Menu">
@@ -23,10 +23,11 @@
                 <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#contato">Contatos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul><!--nav-list-->
         </nav>
-
+    </header>
+    <div id="inicio" class="background">
         <div class="Main">
             <h4>Olá, meu nome é </h4>
             <h1>Emerson<span> Nascimento</span></h1>
@@ -40,7 +41,7 @@
         </div><!--Main-->
     </div><!--background-->
 
-    <section id="sobre" class="background-color-sobre">
+    <section id="sobre" class="sobre">
         <div class="Main-sobre">
             <img src="main-img.png">
             <div class="text-sobre">
@@ -49,7 +50,10 @@
                 <p>Olá meu nome é Emerson, tenho 27 anos,sou um desenvolvedor full stack e ajudo você a criar aquele projeto que você não consegue tirar do papel, faço toda parte desenvolvimento em html,javascrip,css.
                     estou aqui para te ajudar a destravar seu programa ou site, se tiver dúvidas pode me enviar um mensagem no botão abaixo 
                 </p>
-                <button class="button">Conversar</button>
+                <div class="container-button">
+                    <button class="button">Conversar</button>
+                </div>
+                
             </div><!--text-sobre-->
         </div><!--Main-sobre-->
 
