@@ -4,60 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style2.css">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" type="text/css" href="fontawesome-free-6.1.1-web/css/all.min.css">
-    <title>Portfolio website</title>
+    <title>Portfolio</title>
 </head>
+
 <body>
+
     <header>
-        <nav>
+        <div id="title">
             <h2>Portfo<span>lio</span></h2>
-            <div class="mobile-Menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            
+        </div>
+
+        <div class="mobile-Menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <nav class="nav-bar">
             <ul class="nav-List">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul><!--nav-list-->
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
         </nav>
     </header>
-    <div id="inicio" class="background">
-        <div class="Main">
+
+    <main>
+        <aside>
             <h4>Olá, meu nome é </h4>
             <h1>Emerson<span> Nascimento</span></h1>
-            <h3>Eu sou um desenvolvedor full stack</h3>
+            <h3>Eu sou um desenvolvedor Full Stack</h3>
             <div class="Container-btn">
                 <form>
                     <input type="email" nome="email" placeholder="Enviar um email">
                     <input type="submit" nome="submit" value="Começar">
                 </form>
-            </div><!--Container-btn-->    
-        </div><!--Main-->
-    </div><!--background-->
+            </div><!--Container-btn-->   
+        </aside>
+        <article>
+            <img src="./fundo.png" alt="main-fundo" >
+        </article>
+    </main>
+        <section class="sobre">
+            <div class="Main-sobre">
+                <img src="main-img.png">
+                <div class="text-sobre">
+                    <h2>Sobre-mim</h2>
+                    <h5>Desenvolvedor <span>Full Stack</span></h5>
+                    <p>Olá meu nome é Emerson, tenho 27 anos,sou um desenvolvedor full stack e ajudo você a criar aquele projeto que você não consegue tirar do papel, faço toda parte desenvolvimento em html,javascrip,css.
+                        estou aqui para te ajudar a destravar seu programa ou site, se tiver dúvidas pode me enviar um mensagem no botão abaixo 
+                    </p>
+                    
+                </div><!--text-sobre-->
+            </div><!--Main-sobre-->
 
-    <section id="sobre" class="sobre">
-        <div class="Main-sobre">
-            <img src="main-img.png">
-            <div class="text-sobre">
-                <h2>Sobre-mim</h2>
-                <h5>Desenvolvedor <span>Full Stack</span></h5>
-                <p>Olá meu nome é Emerson, tenho 27 anos,sou um desenvolvedor full stack e ajudo você a criar aquele projeto que você não consegue tirar do papel, faço toda parte desenvolvimento em html,javascrip,css.
-                    estou aqui para te ajudar a destravar seu programa ou site, se tiver dúvidas pode me enviar um mensagem no botão abaixo 
-                </p>
-                <div class="container-button">
-                    <button class="button">Conversar</button>
-                </div>
-                
-            </div><!--text-sobre-->
-        </div><!--Main-sobre-->
-
-    </section><!--background-color-sobre-->
+        </section><!--background-color-sobre-->
 
     <div id="projetos" class="container-projetos">
         <div class="title">
@@ -149,4 +155,5 @@
     </footer>
     <script src="mobile-navbar.js"></script>
 </body>
+
 </html>
