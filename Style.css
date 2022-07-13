@@ -34,7 +34,10 @@ header{
     font-size: 3.6rem;
     cursor: pointer;
     letter-spacing: 3px;
+    
+    
 }
+
 
 span{
     color: #f9004d;
@@ -209,6 +212,7 @@ h3{
     text-align: center;
 
 }
+
 
 .caixa{
     display: flex;
@@ -433,11 +437,11 @@ footer p{
         display: flex;
         z-index: 100;
         position: absolute;
-        top: 10vh;
+        top: 12vh;
         right: 0;
         width: 100%;
-        height: 60vh;
-        background: rgb(0, 0, 0);
+        height: 50vh;
+        background: rgb(11, 11, 11);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
